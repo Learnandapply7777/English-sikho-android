@@ -1,0 +1,7 @@
+[
+  {"v1":"work","v2":"worked","v3":"worked","ing":"working","hindi":"काम करना","category":"Office"},
+  {"v1":"send","v2":"sent","v3":"sent","ing":"sending","hindi":"भेजना","category":"Office"},
+  {"v1":"attend","v2":"attended","v3":"attended","ing":"attending","hindi":"उपस्थित होना","category":"Office"},
+  {"v1":"prepare","v2":"prepared","v3":"prepared","ing":"preparing","hindi":"तैयार करना","category":"Office"},
+  {"v1":"speak","v2":"spoke","v3":"spoken","ing":"speaking","hindi":"बोलना","category":"Daily life"}
+]
