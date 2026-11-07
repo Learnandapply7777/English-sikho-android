@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'screens/verb_bank_screen.dart';
 
 void main() {
   runApp(const EnglishSikhoApp());
@@ -13,9 +14,7 @@ class EnglishSikhoApp extends StatelessWidget {
       title: 'English Sikho',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.indigo,
-        ),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
         useMaterial3: true,
       ),
       home: const HomeScreen(),
@@ -79,7 +78,7 @@ class HomeScreen extends StatelessWidget {
           featureCard(
             context,
             'Verb Bank',
-            '3000+ English verbs with Hindi meanings',
+            'English verbs with Hindi meanings',
             Icons.library_books,
           ),
           featureCard(
@@ -106,9 +105,18 @@ class HomeScreen extends StatelessWidget {
         subtitle: Text(subtitle),
         trailing: const Icon(Icons.arrow_forward_ios, size: 16),
         onTap: () {
-          ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(content: Text('$title coming soon')),
-          );
+          if (title == 'Verb Bank') {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const VerbBankScreen(),
+              ),
+            );
+          } else {
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(content: Text('$title coming soon')),
+            );
+          }
         },
       ),
     );
