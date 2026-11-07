@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "v1": "Go",
+    "v2": "Went",
+    "v3": "Gone",
+    "ving": "Going",
+    "hindi": "जाना",
+    "example": "I go to the office."
+  },
+  {
+    "id": 2,
+    "v1": "Come",
+    "v2": "Came",
+    "v3": "Come",
+    "ving": "Coming",
+    "hindi": "आना",
+    "example": "Please come here."
+  },
+  {
+    "id": 3,
+    "v1": "Eat",
+    "v2": "Ate",
+    "v3": "Eaten",
+    "ving": "Eating",
+    "hindi": "खाना",
+    "example": "I eat breakfast daily."
+  },
+  {
+    "id": 4,
+    "v1": "Write",
+    "v2": "Wrote",
+    "v3": "Written",
+    "ving": "Writing",
+    "hindi": "लिखना",
+    "example": "I write emails at work."
+  },
+  {
+    "id": 5,
+    "v1": "Speak",
+    "v2": "Spoke",
+    "v3": "Spoken",
+    "ving": "Speaking",
+    "hindi": "बोलना",
+    "example": "I speak English."
+  },
+  {
+    "id": 6,
+    "v1": "Work",
+    "v2": "Worked",
+    "v3": "Worked",
+    "ving": "Working",
+    "hindi": "काम करना",
+    "example": "I work in an office."
+  },
+  {
+    "id": 7,
+    "v1": "Learn",
+    "v2": "Learned",
+    "v3": "Learned",
+    "ving": "Learning",
+    "hindi": "सीखना",
+    "example": "I learn English every day."
+  },
+  {
+    "id": 8,
+    "v1": "Make",
+    "v2": "Made",
+    "v3": "Made",
+    "ving": "Making",
+    "hindi": "बनाना",
+    "example": "I make tea in the morning."
+  },
+  {
+    "id": 9,
+    "v1": "Buy",
+    "v2": "Bought",
+    "v3": "Bought",
+    "ving": "Buying",
+    "hindi": "खरीदना",
+    "example": "I buy vegetables."
+  },
+  {
+    "id": 10,
+    "v1": "Send",
+    "v2": "Sent",
+    "v3": "Sent",
+    "ving": "Sending",
+    "hindi": "भेजना",
+    "example": "I send reports to my manager."
+  }
+]
